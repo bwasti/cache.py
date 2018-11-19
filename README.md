@@ -3,8 +3,8 @@
 `cache.py` is a one file python library that extends memomization across runs using a cache file.
 
 Often it takes some time to load files, do expensive data processing, and train models.
-As a result, many nice interfaces have popped up to make the experience smoother, like Jupyter notebooks.
-However, these interfaces make it hard to keep coding conventions clean and develop a useable library-like interface.
+As a result, many nice tools have popped up to make the experience smoother, like Jupyter notebooks.
+However, these tools make it hard to keep coding conventions clean and develop a useable library-like interface.
 
 `cache.py` attempts to make it painless to cache expensive functions in your program across python runs,
 enabling quick iteration while developing usable code.
