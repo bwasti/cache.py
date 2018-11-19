@@ -28,7 +28,7 @@ The `@cache.cache()` function can take multiple arguments.
 
 - `@cache.cache(timeout=20)` - Only caches the function for 20 seconds.
 - `@cache.cache(fname="my_cache.pkl")` - Saves cache to a custom filename (defaults to hidden file `.cache.pkl`)
-- `@cache.cache(key=ARGS[KWARGS,NONE])` - Check against args, kwargs or neither of them when doing a cache lookup.
+- `@cache.cache(key=cache.ARGS[KWARGS,NONE])` - Check against args, kwargs or neither of them when doing a cache lookup.
 
 # How it works
 
