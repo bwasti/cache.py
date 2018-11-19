@@ -4,9 +4,10 @@
 
 Often it takes some time to load files, do expensive data processing, and train models.
 As a result, many nice tools have popped up to make the experience smoother, like Jupyter notebooks.
-However, these tools make it hard to keep coding conventions clean and develop a useable library-like interface.
+However, these tools make it hard to keep coding conventions clean
+and develop a library-like interface for your project.
 
-`cache.py` attempts to make it painless to cache expensive functions in your program across python runs,
+`cache.py` attempts to make it painless to cache expensive functions across python runs,
 enabling quick iteration while developing usable code.
 
 # Usage
