@@ -6,8 +6,8 @@ Why?  Often it takes some time to load files, do expensive data processing, and 
 As a result, many nice interfaces have popped up to make the experience smoother, like Jupyter notebooks.
 However, these interfaces make it somewhat hard to keep coding conventions clean and develop a library.
 
-`cache.py` attempts to make it painless to cache the expensive functions in your program to disk,
-allowing quick iteration while developing usable code.
+`cache.py` attempts to make it painless to cache expensive functions in your program across python runs,
+enabling quick iteration while developing usable code.
 
 # Usage
 
