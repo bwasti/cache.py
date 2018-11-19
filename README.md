@@ -1,6 +1,6 @@
 # Cache
 
-`cache.py` is a one file python library that extends memomization across runs using a cache file.
+`cache.py` is a one file python library that extends [memoization](https://en.wikipedia.org/wiki/Memoization) across runs using a cache file.
 
 Often it takes some time to load files, do expensive data processing, and train models.
 As a result, many nice tools have popped up to make the experience smoother, like Jupyter notebooks.
