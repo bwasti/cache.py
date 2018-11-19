@@ -33,4 +33,4 @@ The `@cache.cache()` function can take multiple arguments.
 
 With a file loaded from disk, `cache.py` checks against the name, arguments and hash of a function's source
 to decide if the function has been run before.  If it has it returns the cached result immediately.
-It uses `pickle` and `inspect` under the hood, making it currently non-portable.
+It currently uses `pickle` and `inspect` under the hood, making it non-portable.
